@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "onix"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Marques <bruno@bmarques.net>"]
+license = "MPL-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+construct = "^2.10.70"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
